@@ -1,0 +1,30 @@
+{% extends "layout.html" %}
+{% block content %}
+
+<form action="/tablamult" method="post">
+
+    <div class="mb-3">
+        <label for="ta" class="form-label">Introduce un numero del 2 al 10</label>
+        <input type="number" class="form-control" name="num" id="num">
+    </div>
+
+    <button type="submit" class="btn btn-primary">Enviar</button>
+    <br>
+    <br>
+    <br>
+    <table>
+        <tbody>
+            {% for factor, resultado in tabla %}
+            <tr>
+                <td>{{ factor }}</td>
+                <td>x</td>
+                <td>{{numero}}</td>
+                <td>=</td>
+                <td>{{resultado }}</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+    <p></p>
+
+    {% endblock %}

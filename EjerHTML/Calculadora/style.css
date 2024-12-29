@@ -1,0 +1,73 @@
+body {
+    font: 35px Arial;
+    color: black
+}
+
+.h3 {}
+
+#calculadora {
+    font: bold 14px impact;
+    background: linear-gradient(rgba(0, 0, 0, 0.767), rgba(83, 83, 83, 0.884), rgba(139, 139, 139, 0.856), rgba(177, 176, 176, 0.856));
+    border-radius: 50px;
+    height: auto;
+    margin: 0 auto;
+    padding: 20px 20px 200px;
+    width: 300px;
+    height: 170px;
+}
+
+#ps {
+    font: 20px impact;
+    background-color: #ffffff;
+    border-radius: 50px;
+    height: auto;
+    margin: 0 auto;
+    border: none;
+    padding: 9px 9px 10px;
+    width: 190px;
+    
+}
+
+.numero {
+    font: 20px impact;
+    background-color: #ffffff;
+    border-radius: 100px;
+    color: #000000;
+    cursor: pointer;
+    float: left;
+    height: 36px;
+    line-height: 36px;
+    margin: 0 7px 11px 0;
+    border: none;
+    text-align: center;
+    transition: all 0.4s ease 0s;
+    width: 65px;
+    height: 65px;
+}
+
+.numero:hover {
+    background-color: #ffffff;
+    color: rgb(255, 0, 0)
+}
+
+.numero1 {
+    font: 20px impact;
+    background-color: #000000;
+    border-radius: 100px;
+    color: #ffffff;
+    cursor: pointer;
+    float: left;
+    height: 36px;
+    line-height: 36px;
+    margin: 0 7px 11px 0;
+    border: none;
+    text-align: center;
+    transition: all 0.4s ease 0s;
+    width: 66px;
+    height: 49px;
+}
+
+.numero1:hover {
+    background-color: #ffffff;
+    color: rgb(255, 0, 0)
+}

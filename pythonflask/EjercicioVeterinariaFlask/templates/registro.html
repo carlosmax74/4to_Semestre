@@ -1,0 +1,35 @@
+{% extends "layout.html" %}
+
+{% block content %}
+<h1>
+    <CENTER> <b> ¡Contactanos! </b> </CENTER>
+
+</h1>
+<br>
+<br>
+<br>
+
+<CENTER>
+
+    <form action="/registro" method="post">
+        <div class="container">
+            <div class="form-row">
+                <div class="col-xs-12 ">
+                    <div class="mb-3">
+                        <label for="correo" class="form-label">Escribe aqui tu correo electronico</label>
+                        <input type="email" class="form-control" name="correo" id="correo"
+                            placeholder="nombre@ejemplo.com">
+                    </div>
+                    <div class="mb-3">
+                        <label for="comentarios" class="form-label">Escribe tu mensaje</label>
+                        <input type="text" class="form-control" name="comentarios" id="comentarios"></input>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <button type="submit" class="btn btn-primary">Enviar</button>
+    </form>
+
+</CENTER>
+
+{% endblock %}

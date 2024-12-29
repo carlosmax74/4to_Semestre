@@ -1,0 +1,28 @@
+#Bienvenida {
+    font: bold 60px tahoma;
+    text-shadow: rgb(0, 0, 0) 3px 3px 5px;
+    color: #ffffff;
+}
+
+#Inicio {
+    font: bold 25px tahoma;
+    text-shadow: rgb(0, 0, 0) 3px 3px 5px;
+    color: #ffffff;
+}
+
+.btn-hist {
+    font: bold 60px tahoma;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 20px;
+    color: #ffffff;
+    text-shadow: #ffffff;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 40px;
+    padding-right: 40px;
+    background-color: transparent;
+    border-width: 3px;
+    border-style: solid;
+    border-color: #ffffff;
+}

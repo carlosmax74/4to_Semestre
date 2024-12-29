@@ -1,0 +1,62 @@
+body {
+    text-align: center;
+}
+
+#principal {
+    display: block;
+    width: 500px;
+    margin: 50px auto;
+    padding: 15px;
+    text-align: center;
+    border: 1px solid #999999;
+    background: #DDDDDD;
+
+    outline: 2px dashed #000099;
+    outline-offset: 15px;
+
+   /* -moz-transform: scale(1, -1);
+    -webkit-transform: scale(1, -1);
+
+    -moz-transform: rotate(30deg);
+    -webkit-transform: rotate(0deg);
+
+    -moz-transform: skew(20deg);
+    -webkit-transform: skew(20deg);
+
+    -moz-transform: translate(100px);
+    -webkit-transform: translate(100px);
+
+    -moz-transform: translateY(100px) rotate(45deg) scaleX(0.3);
+    -webkit-transform: translateY(100px) rotate(45deg) scaleX(0.3);
+
+    -moz-transition: -moz-transform ls ease-in-out 0.5s;
+    -webkit-transition: -webkit-tranform ls ease-in-out 0.5s;
+
+    -moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
+    border-radius: 20px;
+
+    -moz-box-shadow: rgb(150,150,150) 5px 5px 10px;
+    -webkit-box-shadow: rgb(150,150,150) 5px 5px 10px;
+    box-shadow: rgb(150,150,150) 5px 5px 10px
+
+    background -webkit-linear-gradient(top, #FFFFFF, #006699);
+    background: -moz-linear-gradient(top, #FFFFFF, #006699) ;*/
+}
+
+ #principal: hover{
+    -moz-transform: rotate(5deg);
+    -webkit-transform: rotate(5deg);
+}
+
+
+#titulo {
+    font: bold 36px MiNuevaFuente, verdana, sans-serif;
+    text-shadow: rgb(0, 0, 0, 0.5) 3px 3px 5px ;
+    color: hsla(120, 100%, 50%, 0.5)
+}
+
+@font-face {
+    font-family: "MiNuevaFuente";
+    src: url("font.ttf");
+}

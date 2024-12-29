@@ -1,0 +1,21 @@
+body {
+    background-image: url("FondoIntro.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    color: #000000;
+}
+
+.fondointro {}
+
+#fuente1 {
+    font: 90px Garamound;
+    text-shadow: rgb(0, 0, 0) 3px 3px 5px;
+    color: #922B21;
+}
+
+#fuente2 {
+    font: 20px Garamound;
+    text-shadow: rgb(0, 0, 0) 3px 3px 5px;
+    color: #922B21;
+}

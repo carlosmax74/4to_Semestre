@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <title>Planeta Limpio</title>
+
+    <link href="/img/icon.jpg" rel="icon">
+
+    <link rel="stylesheet" href="../css/apoya.css">
+</head>
+
+<body>
+
+    <!--Barra-de-navegación-->
+    <header>
+        <nav>
+
+            <div class="logo">
+                <a href="inicio.html"> <img src="../img/leaf-regular-24.png" style="color: white;"
+                        alt="Logo de la marca"></a>
+            </div>
+
+            <ul id="options">
+                <div class="opciones">
+                    <li>
+                        <a href="inicio.html" class="text-uppercase">Inicio</a>
+                    </li>
+                    <li>
+                        <a href="eventos.html" class="text-uppercase">Servicio Comunitario</a>
+                    </li>
+                    <li>
+                        <a href="apoya.html" class="text-uppercase">Apoyanos</a>
+                    </li>
+                </div>
+            </ul>
+
+            <div class="menu" id="menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+
+        </nav>
+    </header>
+    <!--Fin-barra-de-navegación-->
+    <center>
+
+        <div class="container">
+
+            <h1>¡Haz una donación a nuestra empresa ambiental!</h1>
+            <p>Nuestra empresa ambiental está dedicada a restaurar y cuidar el medio ambiente de la ciudad de
+                Aguascalientes.
+                Aceptamos donaciones tanto de empresas como de organizaciones sin fines de lucro para apoyar nuestra
+                misión.
+            </p>
+
+            <br>
+
+            <h2>Donaciones de empresas</h2>
+            <p>Si eres una empresa, puedes apoyar nuestro trabajo haciendo una contribución financiera. Tu donación nos
+                ayudará
+                a comprar las herramientas y equipos necesarios para continuar nuestros esfuerzos de restauración
+                ambiental.
+            </p>
+
+            <br>
+
+            <form action="https://www.paypal.com/donate" method="post" target="_top">
+                <!-- ID del botón alojado en PayPal -->
+                <input type="hidden" name="hosted_button_id" value="DONACION-EMPRESA-BUTTON-ID">
+                <!-- Botón de donación de PayPal -->
+                <input type="image" src="https://www.paypalobjects.com/es_XC/i/btn/btn_donateCC_LG.gif" name="submit"
+                    title="PayPal - La forma más segura y fácil de pagar en línea" alt="Donar con PayPal button">
+                <!-- Píxel de seguimiento de PayPal -->
+                <img alt="" src="https://www.paypal.com/es_XC/i/scr/pixel.gif" width="1" height="1">
+            </form>
+
+            <br>
+
+            <h2>Donaciones de organizaciones sin fines de lucro</h2>
+            <p>Si eres una organización sin fines de lucro, puedes apoyar nuestro trabajo donando herramientas y
+                equipos. Tu
+                donación nos ayudará a continuar nuestros esfuerzos de restauración ambiental y será deducible de
+                impuestos.
+            </p>
+
+            <br>
+
+            <form action="/formulario-donacion-sin-fines-de-lucro" method="post">
+                <!-- Campo de texto para el nombre -->
+                <label for="nombre">Nombre:</label><br>
+                <input type="text" id="nombre" name="nombre"><br>
+                <!-- Campo de correo electrónico -->
+                <label for="email">Correo electrónico:</label><br>
+                <input type="email" id="email" name="email"><br>
+                <!-- Campo de texto para la herramienta/equipo -->
+                <label for="herramienta">Herramienta/Equipo:</label><br>
+                <input type="text" id="herramienta" name="herramienta"><br>
+                <!-- Botón de envío del formulario -->
+                <input type="submit" value="Donar Herramienta/Equipo">
+            </form>
+
+        </div>
+    </center>
+
+    <!--Pie-de-pagina-->
+    <div class="footer">
+
+        <li>
+            <a href="https://www.instagram.com/danytml/">El + nalgon</a>
+        </li>
+        <li>
+            <a href="https://www.instagram.com/julio_atl/">Un pendejo</a>
+        </li>
+        <li>
+            <a href="https://www.instagram.com/guillermo_troste/">Triston</a>
+        </li>
+        <li>
+            <a href="https://www.instagram.com/ximeneth28_/">Cepillina</a>
+        </li>
+        <li>
+            <a href="https://www.instagram.com/carlosm_as/">Carlos</a>
+        </li>
+
+    </div>
+    <!--Fin-de-pie-de-pagina-->
+
+    <!--Referencias-JS-->
+    <script src="../js/menu.js"></script>
+    <script src="../js/nav.js"></script>
+    <!--Fin-de-Referencias-->
+
+</body>
+
+</html>

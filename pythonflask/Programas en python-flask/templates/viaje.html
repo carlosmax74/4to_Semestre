@@ -1,0 +1,17 @@
+{% extends "layout.html" %}
+{% block content %}
+
+<form action="/viaje" method="post">
+
+    <div class="mb-3">
+        <label for="nalu" class="form-label">Cuantos alumnos son? (máximo 99)  </label>
+        <input type="text" class="form-control" name="num" id="num">
+    </div>
+
+    <button type="submit" class="btn btn-primary">Enviar</button>
+    <br>
+    <br>
+    <br>
+    <p> {{r}}</p>
+
+{% endblock %}

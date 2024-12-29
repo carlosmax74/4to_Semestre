@@ -1,0 +1,42 @@
+<HTML>
+
+<HEAD>
+
+    <TITLE>
+
+        Mayor de 3
+
+    </TITLE>
+
+</HEAD>
+
+<BODY>
+
+    <script>
+
+        var num1 = prompt("Dame el primero numero");
+        var num2 = prompt("Dame el segundo numero");
+        var num3 = prompt("Dame el tercero numero");
+
+        if (num1 > num2 && num1 > num3) {
+            document.write("El mayor a los 3 es el: " + num1 + " (el primero)")
+        }
+        else
+            if (num2 > num1 && num2 > num3) {
+                alert("El mayor a los 3 es el: " + num2 + " (el segundo)")
+            }
+            else
+                if (num3 > num1 && num3 > num2) {
+                    alert("El mayor a los 3 es el: " + num3 + " (el tercero)")
+                }
+                else
+                    if (num1 == num2 && num1 == num3) {
+                        alert("Los tres numeros son iguales")
+                    }
+
+
+    </script>
+
+</BODY>
+
+</HTML>

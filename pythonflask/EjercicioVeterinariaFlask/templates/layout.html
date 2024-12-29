@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+<head>
+
+    <meta name="keywords" content="HTML5, CSS3">
+
+    <title>NutriPetCare</title>
+
+    <link rel="stylesheet" href="/static/estilos.css">
+
+</head>
+
+<CENTER>
+    <span id="encabezado">
+
+        Nutri<img src="/static/imagenes/nutri.jpg" width="30px" height="45px">PetCare
+
+    </span>
+</CENTER>
+
+<body>
+
+    <header>
+
+        <CENTER>
+
+            <img src="/static/imagenes/minipig.jpg" style="border: 10px solid; color: rgb(47, 49, 63);" width="220px"
+                height="190px">
+            <img src="/static/imagenes/nutria1.jpg" style="border: 10px solid; color: rgb(47, 49, 63);" width="220px"
+                height="190px">
+            <img src="/static/imagenes/conejo.jpg" style="border: 10px solid; color: rgb(47, 49, 63);" width="220px"
+                height="190px">
+
+
+
+        </CENTER>
+
+    </header>
+
+
+
+    <nav>
+        <ul>
+            <span id="subti">
+                <li><a href="/">Inicio</a></li>
+                <li><a href="/nuestrosservicios">Nuestros Servicios</a></li>
+                <li><a href="/descp">Descripción</a></li>
+                <li><a href="/minipig">Mini Pig</a></li>
+                <li><a href="/nutria">Nutria</a></li>
+                <li><a href="/conejo">Conejo</a></li>
+                <li><a href="/contacto">Contacto</a></li>
+                <li><a href="/registro">Registro</a></li>
+                <li><a href="/modificar">Modificar</a></li>
+            </span>
+        </ul>
+    </nav>
+
+    {% block content %}
+
+    {% endblock %}
+
+    <footer>
+        <p></p>
+    </footer>
+
+</body>
+
+</html>

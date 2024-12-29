@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <form action="ticket" method="POST">
+        <input type="submit" id="btnDescargarPDF" placeholder="Descargar PDF"></input>
+    </form>
+
+    <script>
+        document.getElementById("btnDescargarPDF").addEventListener("click", function () {
+            var enlace = document.createElement("a");
+            enlace.href = "/generar_ticket";
+            enlace.download = "ticket_de_compra.pdf";
+            document.body.appendChild(enlace);
+            enlace.click();
+            document.body.removeChild(enlace);
+        });
+    </script>
+
+
+</body>
+
+</html>

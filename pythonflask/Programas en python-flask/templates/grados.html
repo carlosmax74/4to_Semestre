@@ -1,0 +1,19 @@
+{% extends "layout.html" %}
+{% block content %}
+
+<form action="/grados" method="post">
+
+    <div class="mb-3">
+        <label for="f" class="form-label">Introduzca los grados Fahrenheit  </label>
+        <input type="text" class="form-control" name="fharen" id="fharen">
+    </div>
+
+    <button type="submit" class="btn btn-primary">Enviar</button>
+    <br>
+    <br>
+    <br>
+    <p>Grados Fahrenheit convertidos a grados Centígrados: {{r}}</p>
+
+</form>
+
+{% endblock %}

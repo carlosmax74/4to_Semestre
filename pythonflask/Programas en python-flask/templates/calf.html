@@ -1,0 +1,17 @@
+{% extends "layout.html" %}
+{% block content %}
+
+<form action="/calf" method="post">
+
+    <div class="mb-3">
+        <label for="num" class="form-label">Introduzca numero del 0 al 10  </label>
+        <input type="text" class="form-control" name="num" id="num">
+    </div>
+
+    <button type="submit" class="btn btn-primary">Enviar</button>
+    <br>
+    <br>
+    <br>
+    <p> {{resu}}</p>
+
+{% endblock %}

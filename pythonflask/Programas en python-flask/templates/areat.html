@@ -1,0 +1,23 @@
+{% extends "layout.html" %}
+{% block content %}
+
+<form action="/areaT" method="post">
+
+    <div class="mb-3">
+        <label for="b" class="form-label">Introduzca la base</label>
+        <input type="text" class="form-control" name="base" id="base">
+    </div>
+    <div class="mb-3">
+        <label for="a" class="form-label">Introduzca la altura</label>
+        <input type="text" class="form-control" name="altura" id="altura">
+    </div>
+
+    <button type="submit" class="btn btn-primary">Enviar</button>
+    <br>
+    <br>
+    <br>
+    <p>El área de el triángulo es: {{res}}</p>
+
+</form>
+
+{% endblock %}

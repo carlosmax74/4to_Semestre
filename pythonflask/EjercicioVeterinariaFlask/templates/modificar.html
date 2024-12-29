@@ -1,0 +1,44 @@
+{% extends "layout.html" %}
+
+{% block content %}
+
+<table>
+    <tbody>
+        <tr>
+            <td>
+                <right>
+                    <h3><a href="/contacto">Agregar Comentario</a></h3>
+                </right>
+                <center>
+                    <h3>Comentarios registrados</h3>
+                </center>
+                <table>
+                    <thead>
+                        <tr>
+                            <td>Correo</td>
+                            <td>Descripcion</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {% for i in comentarios %}
+                        <tr>
+                            <td width="42%">
+                                {{i.1}}
+                            </td>
+                            <td width="42%">
+                                {{i.2}}
+                            </td>
+                            <td>
+                                <center><a href="/editar/{{i.0}}" style="...">Editar</a></center>
+                            </td>
+                            <td>
+                                <center><a href="/borrar/{{i.0}}" style="...">Borrar</a></center>
+                            </td>
+                        </tr>
+                        {% endfor %}
+                    </tbody>
+                </table>
+
+                {% endblock %}
